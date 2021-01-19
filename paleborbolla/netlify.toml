@@ -1,0 +1,8 @@
+[build]
+base = "/"
+command = "hugo --gc --minify"
+context = "production"
+publish = "public"
+[context.production.environment]
+HUGO_VERSION = "0.78.2"
+HUGO_ENV = "production"
